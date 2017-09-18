@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CategoriaSuite" duration-ms="1690" started-at="2017-09-17T21:50:59Z" finished-at="2017-09-17T21:51:01Z">
+    <groups>
+    </groups>
+    <test name="CategoriaTest" duration-ms="1654" started-at="2017-09-17T21:50:59Z" finished-at="2017-09-17T21:51:01Z">
+      <class name="pe.com.test.CategoriaTest">
+        <test-method status="PASS" signature="inicioMetodo()[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="inicioMetodo" is-config="true" duration-ms="8" started-at="2017-09-17T16:50:59Z" finished-at="2017-09-17T16:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioMetodo -->
+        <test-method status="PASS" signature="inicioClase()[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="inicioClase" is-config="true" duration-ms="0" started-at="2017-09-17T16:50:59Z" finished-at="2017-09-17T16:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="insertar(java.lang.String)[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="insertar" duration-ms="298" started-at="2017-09-17T16:50:59Z" finished-at="2017-09-17T16:50:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chocolates]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertar -->
+        <test-method status="PASS" signature="timeOut()[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="timeOut" duration-ms="913" started-at="2017-09-17T16:50:59Z" finished-at="2017-09-17T16:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeOut -->
+        <test-method status="PASS" signature="insertarDataProvider(pe.com.test.bean.CategoriaBean)[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="insertarDataProvider" duration-ms="131" started-at="2017-09-17T16:51:00Z" data-provider="datosEntrada" finished-at="2017-09-17T16:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CategoriaBean: Chocolates]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarDataProvider -->
+        <test-method status="PASS" signature="insertarDataProvider(pe.com.test.bean.CategoriaBean)[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="insertarDataProvider" duration-ms="163" started-at="2017-09-17T16:51:00Z" data-provider="datosEntrada" finished-at="2017-09-17T16:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CategoriaBean: Lacteos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarDataProvider -->
+        <test-method status="PASS" signature="actualizar(java.lang.String)[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="actualizar" duration-ms="63" started-at="2017-09-17T16:51:00Z" depends-on-methods="pe.com.test.CategoriaTest.insertar" finished-at="2017-09-17T16:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lacteos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actualizar -->
+        <test-method status="PASS" signature="obtener()[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="obtener" duration-ms="7" started-at="2017-09-17T16:51:01Z" depends-on-methods="pe.com.test.CategoriaTest.actualizar" finished-at="2017-09-17T16:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- obtener -->
+        <test-method status="PASS" signature="eliminar()[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="eliminar" duration-ms="42" started-at="2017-09-17T16:51:01Z" depends-on-methods="pe.com.test.CategoriaTest.obtener" finished-at="2017-09-17T16:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eliminar -->
+        <test-method status="PASS" signature="finClase()[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="finClase" is-config="true" duration-ms="1" started-at="2017-09-17T16:51:01Z" finished-at="2017-09-17T16:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finClase -->
+        <test-method status="PASS" signature="finMetodo()[pri:0, instance:pe.com.test.CategoriaTest@5d5eef3d]" name="finMetodo" is-config="true" duration-ms="1" started-at="2017-09-17T16:51:01Z" finished-at="2017-09-17T16:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finMetodo -->
+      </class> <!-- pe.com.test.CategoriaTest -->
+    </test> <!-- CategoriaTest -->
+    <test name="test1" duration-ms="3" started-at="2017-09-17T21:51:01Z" finished-at="2017-09-17T21:51:01Z">
+      <class name="pe.com.test.ParameterizedTest1">
+        <test-method status="PASS" signature="parameterTest(java.lang.String)[pri:0, instance:pe.com.test.ParameterizedTest1@482f8f11]" name="parameterTest" duration-ms="1" started-at="2017-09-17T16:51:01Z" finished-at="2017-09-17T16:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manisha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest -->
+      </class> <!-- pe.com.test.ParameterizedTest1 -->
+    </test> <!-- test1 -->
+  </suite> <!-- CategoriaSuite -->
+</testng-results>
